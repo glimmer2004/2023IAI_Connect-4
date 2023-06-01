@@ -8,7 +8,7 @@
 #include <cstring>
 #include <algorithm>
 #include <assert.h>
-//ERRORS: MLE, time(?), explore coefficient, mcts workflow(silly moves)
+//ERRORS&ALERTS: MLE, time(?), explore coefficient &ucb calculation, mcts workflow(silly moves)
 using namespace std;
 
 
@@ -274,7 +274,7 @@ class UCT{
 			}
 			for (int& element : node->expandable) {
 				//cerr<<"expand_3"<<endl;
-				node->numChildren++;
+				
 				// Copy board state
 				for (int i = 0; i < height; i++) {
 					for (int j = 0; j < width; j++) {
@@ -298,14 +298,20 @@ class UCT{
 					if (node->player==0){
 						if (userWin(new_top[element] - 1,element,height,width,new_board)){
 							backPropagate(node,1);
+							continue;
 						}
 					}
 					if (node->player==1){
 						if (machineWin(new_top[element] - 1,element,height,width,new_board)){
 							backPropagate(node,-1);
+							continue;
 						}
 					}
-					if (isTie(width,new_top)) backPropagate(node,0);
+					if (isTie(width,new_top)) {
+						backPropagate(node,0);
+						continue;
+					}
+					node->numChildren++;
 					new_top[element]--;
 					//cerr<<"expand_5/1"<<endl;
 
@@ -344,7 +350,7 @@ class UCT{
 				cerr<<endl;
 			}
 			auto startTime = std::chrono::high_resolution_clock::now();
-			double durationInSeconds = 1.85; // ALERT: change time limit?
+			double durationInSeconds = 2.85; // ALERT: change time limit?
 			auto endTime = startTime + std::chrono::duration<double>(durationInSeconds);
 			//cerr<<"entering the first loop in treepolicy"<<endl;
 			while (std::chrono::high_resolution_clock::now() < endTime) {
