@@ -1,0 +1,11611 @@
+entering the first loop in treepolicy
+root's childnum is0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 1
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 2
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 3
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 4
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 5
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 6
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 7
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 8
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+user wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 9
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished random play for vc=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count isn't zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+machine wins
+finished expansion and random play for vc!=0
+root's childnum is11
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+searching for leaf node
+best index is 0
+selected best child
+this node's visit count is zero
+1
+2
+height is 12
+width is 11
+3
+4
+5
+6
+7
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
+12
+13
+20
+25
+26
+8
