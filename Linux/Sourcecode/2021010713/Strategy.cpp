@@ -11,7 +11,6 @@
 //ERRORS&ALERTS: MLE, time(?), explore coefficient &ucb calculation, mcts workflow(silly moves)
 using namespace std;
 
-
 class Node{
 	private:
 	public:
@@ -20,8 +19,11 @@ class Node{
 		int ** board;
 		int height, width;
 		int ban_x,ban_y;
-		int player;//0 for me, 1 for opponent
+		int player;//0 for me, 1 for opponent,这里的player指的是当前节点的【下一步】轮到哪一个player走子了
 		int *top;
+		int winning_parent=0;//if 1, then it means it has a winning child node
+		int winning_index=0;//which child can win the game
+		int end=0;//if 1, it means that node has reached the end of the game
 		Node* parent;
 		std::vector<int> expandable;//records the x coordinates(denoting width) of all expandable next-steps
 		Node** children;
@@ -48,20 +50,8 @@ class Node{
 			expandable=_expandable;
 			numChildren=0;
 			children=nullptr;
-			//children, move_x, move_y uninitialized
 		}
 		~Node() {
-			// for (int i = 0; i < numChildren; i++) {
-			// 	delete children[i];
-			// }
-			// if (numChildren>0)
-			// 	delete[] this->children;
-			// delete[] top;
-			// for (int i = 0; i < height; i++) {
-			// 	delete[] this->board[i];
-			// }
-			// delete[] this->board;
-			// // delete parent;
 			cerr<<"num of children"<<numChildren<<endl;
 			for (int i = 0; i < this->numChildren; i++) {
 				std::cerr << "Deleting child " << i << ": " << children[i] << std::endl;
@@ -110,7 +100,7 @@ class UCT{
 				} 
 				if (_top[i]>0) expandable.push_back(i);
 			}
-			root=new Node(this->board,height,width,ban_x,ban_y,0,top,expandable,nullptr);
+			root=new Node(this->board,height,width,ban_x,ban_y,1,top,expandable,nullptr);
 			delete []top;
 			std::srand(static_cast<unsigned int>(std::time(nullptr)));  // Seed the random number generator
 		}
@@ -126,6 +116,9 @@ class UCT{
 		//given a node pointer, randomPlay will play randomly from the state of this node and return the result of the game(0 for tie, 1 for victory, -1 for losing)
 		int randomPlay(Node* node) {
 			//cerr<<"randomplY"<<endl;
+			if (node->parent->winning_parent){//如果它的父亲节点有必胜子节点（对于我方必胜），那么直接返回1
+				return 1;
+			}
 			std::srand(static_cast<unsigned int>(std::time(nullptr)));  // Seed the random number generator
 			int player = node->player; // 0 is my turn, 1 is the opponent's turn
 
@@ -141,11 +134,9 @@ class UCT{
 			
 			// Initialize tmptop
 			int* tmptop = new int[width];//here
-			// //cerr<<4<<endl;
 			for (int i = 0; i < width; i++) {
 				tmptop[i] = node->top[i];
 			}
-			// //cerr<<5<<endl;
 			
 			std::vector<int> positiveIndices;
 			for (int i = 0; i < width; i++) {
@@ -158,9 +149,9 @@ class UCT{
 					}
 				}
 			}//determine which indices are available slots
-			//cerr<<6<<endl;
+
 			if (isTie(width, tmptop)) {
-				//cerr<<"is tie0"<<endl;
+				cerr<<"is tie0"<<endl;
 				return 0;
 			}
 			//cerr<<7<<endl;
@@ -172,12 +163,20 @@ class UCT{
 				if (player==0) judge=userWin(tmptop[randomIndex] - 1,randomIndex,  height, width, tmpboard);
 				else judge=machineWin(tmptop[randomIndex] - 1, randomIndex, height, width, tmpboard);
 				if (judge){
+					if (player==1) cerr<<"i win"<<endl;
+					if (player==0) cerr<<"other side wins"<<endl;
+					for (int m=0;m<height;m++){
+						for (int n=0;n<width;n++){
+							cerr<<tmpboard[m][n]<<" ";
+						}
+						cerr<<endl;
+					}
 					delete[] tmptop;
 					for (int i = 0; i < height; i++) {
 						delete[] tmpboard[i];
 					}
 					delete[] tmpboard;
-					if (player==0) return 1;
+					if (player==1) return 1;
 					else return -1;
 				}
 			
@@ -189,6 +188,19 @@ class UCT{
 				}
 									
 				if (isTie(width, tmptop)) {
+					cerr<<"is tie"<<endl;
+					for (int m=0;m<height;m++){
+						for (int n=0;n<width;n++){
+							cerr<<tmpboard[m][n]<<" ";
+						}
+						cerr<<endl;
+					}
+					for (int m=0;m<height;m++){
+						for (int n=0;n<width;n++){
+							cerr<<tmpboard[m][n]<<" ";
+						}
+						cerr<<endl;
+					}
 					delete[] tmptop;
 					for (int i = 0; i < height; i++) {
 						delete[] tmpboard[i];
@@ -214,18 +226,22 @@ class UCT{
 
 		// back-propagate the result of the node up the tree to its ancestors(increment visitCount value and add game result to ancestor's reward)
 		void backPropagate(Node * node, int result){
-			//cerr<<"backpropagating"<<endl;
-			// //cerr<<"1: "<<node->board[1][1]<<endl;
+			////cerr<<"backpropagating"<<endl;
+			// ////cerr<<"1: "<<node->board[1][1]<<endl;
+			int flip;
+			if (node->player==0){//下一个节点player=0.即本次下棋的人是自己
+				flip=1;
+			}
+			else flip=-1;
 			node->visitCount++;
 			node->reward+=result;
 			Node* tmpNode=node;
 			while (tmpNode->parent){
+				flip=-flip;
 				tmpNode=tmpNode->parent;
 				tmpNode->visitCount++;
-				tmpNode->reward+=result;
+				tmpNode->reward+=flip*result;
 			}
-			// delete tmpNode;//ALERT: release pointers!!! why will this line delete node as well as tmpnode?
-			// //cerr<<"2: "<<node->board[1][1]<<endl;
 		}
 
 		Node* bestChild(Node* node){
@@ -236,10 +252,10 @@ class UCT{
 			//cerr<<"numchildren"<<node->numChildren<<endl;
 			for (int i = 0; i < node->numChildren; i++) {
 				Node* child = node->children[i];
-				int childScore;
+				double childScore;
 				if (child->visitCount==0) childScore = 100000000;
 				else {
-					childScore = ((double)(child->reward))/(child->visitCount)+1.41*sqrt(log((double)node->visitCount)/(child->visitCount));
+					childScore = ((double)(child->reward))/(child->visitCount)+0.707*sqrt(log((double)node->visitCount)/(child->visitCount));
 					//cerr<<"child reward "<<child->reward<<", child->visitCount"<<child->visitCount<<", nodevisitnum"<<node->visitCount<<endl;
 				}
 				//cerr<<"node's visitnum"<<node->visitCount<<endl;
@@ -252,18 +268,16 @@ class UCT{
 				}
 			}
 			cerr<<"best index is "<<bestIndex<<" "<<endl;
-			cerr<<"move x is"<<node->children[bestIndex]->move_x<<", move y is "<<node->children[bestIndex]->move_y<<endl;
+			cerr<<"bestmove x is"<<node->children[bestIndex]->move_x<<", bestmove y is "<<node->children[bestIndex]->move_y<<endl;
 			if (bestIndex!=-1) return node->children[bestIndex];
 			else return nullptr;
 			
 		}
-		// Node* defaultChild(){// DIDN'T IMPLEMENT THIS FUNCTION, DO I NEED THIS FUNCTION?
-		// }//ALERT
-		
 
 		//ALERT:have to expand before calling rollout
 
 		void expand(Node* node){
+			if (node->end) return;
 			//cerr<<"expand_start"<<endl;
 			node->children = new Node*[node->expandable.size()]; // Initialize children array with appropriate size
 			//cerr<<"expand_1"<<endl;
@@ -274,7 +288,7 @@ class UCT{
 			}
 			for (int& element : node->expandable) {
 				//cerr<<"expand_3"<<endl;
-				
+				int end=0; int win=0;
 				// Copy board state
 				for (int i = 0; i < height; i++) {
 					for (int j = 0; j < width; j++) {
@@ -297,17 +311,43 @@ class UCT{
 					new_board[new_top[element] - 1][element] = node->player + 1;
 					if (node->player==0){
 						if (userWin(new_top[element] - 1,element,height,width,new_board)){
-							backPropagate(node,1);
+							cerr<<"expand:othter side wins"<<endl;
+							for (int m=0;m<height;m++){
+								for (int n=0;n<width;n++){
+									cerr<<new_board[m][n]<<" ";
+								}
+								cerr<<endl;
+							}
+							backPropagate(node,-1);
+							end=1;
 							continue;
 						}
 					}
 					if (node->player==1){
 						if (machineWin(new_top[element] - 1,element,height,width,new_board)){
-							backPropagate(node,-1);
+							cerr<<"expand:i win!"<<endl;
+							for (int m=0;m<height;m++){
+								for (int n=0;n<width;n++){
+									cerr<<new_board[m][n]<<" ";
+								}
+								cerr<<endl;
+							}
+							end=1;
+							node->winning_parent=1;
+							node->winning_index=node->numChildren;
+							backPropagate(node,1);
 							continue;
 						}
 					}
 					if (isTie(width,new_top)) {
+						cerr<<"expand:is tie"<<endl;
+						for (int m=0;m<height;m++){
+							for (int n=0;n<width;n++){
+								cerr<<new_board[m][n]<<" ";
+							}
+							cerr<<endl;
+						}
+						end=1;
 						backPropagate(node,0);
 						continue;
 					}
@@ -326,10 +366,11 @@ class UCT{
 							);
 					}
 				}
-
+				
 				Node* newNode = new Node(new_board, height, width, ban_x, ban_y, 1 - node->player, new_top, new_expandable, node);
 				newNode->move_x = new_top[element];
 				newNode->move_y = element;
+				if (end) newNode->end=1;
 				node->children[node->numChildren - 1] = newNode;
 			}
 
@@ -342,7 +383,7 @@ class UCT{
 		}
 
 		Node* treePolicy(){
-		
+			
 			for (int i=0;i<this->height;i++){
 				for (int j=0;j<this->width;j++){
 					cerr<<board[i][j]<<" ";
@@ -350,7 +391,7 @@ class UCT{
 				cerr<<endl;
 			}
 			auto startTime = std::chrono::high_resolution_clock::now();
-			double durationInSeconds = 2.85; // ALERT: change time limit?
+			double durationInSeconds = 2.0; // ALERT: change time limit?
 			auto endTime = startTime + std::chrono::duration<double>(durationInSeconds);
 			//cerr<<"entering the first loop in treepolicy"<<endl;
 			while (std::chrono::high_resolution_clock::now() < endTime) {
@@ -366,35 +407,28 @@ class UCT{
 				}
 				// assert(current!=nullptr);
 				cerr<<"selected best child"<<endl;
-				if (current->visitCount==0){
-					cerr<<"this node's visit count is zero"<<endl;
-					expand(current);
-					int result=randomPlay(current);
+				expand(current);
+				std::srand(static_cast<unsigned int>(std::time(nullptr)));
+				for (int i=0;i<current->numChildren;i++){
+					int result=randomPlay(current->children[i]);
 					backPropagate(current,result);
-					cerr<<"finished random play for vc=0"<<endl;
 				}
-				else{
-					cerr<<"this node's visit count isn't zero"<<endl;
-					expand(current);
-					std::srand(static_cast<unsigned int>(std::time(nullptr)));
-					if (current->numChildren>0){
-						current=current->children[std::rand() % current->numChildren];
-					}
-					int result=randomPlay(current);
-					backPropagate(current,result);
-					cerr<<"finished expansion and random play for vc!=0"<<endl;
-				}
+				// if (current->numChildren>0){
+				// 	current=current->children[std::rand() % current->numChildren];
+				// }
+				// int result=randomPlay(current);
+				// backPropagate(current,result);
 			}
-			int bestScore = -10000;
+			double bestScore = -10000;
 			int bestIndex = 0;
 			cerr<<"comparing children"<<endl;
 			cerr<<"numchildren is"<<root->numChildren<<endl;
 			for (int i=0;i<root->numChildren;i++){
 				cerr<<"i is "<<i<<endl;
-				int childScore;
+				double childScore;
 				if (root->children[i]->visitCount==0) childScore = 0;
 				else {
-					childScore = ((double)(root->children[i]->reward))/(root->children[i]->visitCount)+2*sqrt(log((double)root->visitCount)/log(root->children[i]->visitCount));
+					childScore = ((double)(root->children[i]->reward))/(root->children[i]->visitCount);
 				}
 				if (childScore>bestScore) {
 					bestIndex=i;
@@ -450,17 +484,19 @@ extern "C"  Point* getPoint(const int M, const int N, const int* top, const int*
 		该部分对参数使用没有限制，为了方便实现，你可以定义自己新的类、.h文件、.cpp文件
 	*/
 	//Add your own code below
+	cerr<<"first state"<<endl;
+
 	UCT* uct = new UCT(M, N, noX, noY, top, board);
 	Node* bestNode = uct->treePolicy();
 	cerr<<"finished treepolicy"<<endl;
+	if (uct->root->winning_parent) bestNode=uct->root->children[uct->root->winning_index];
 	x = bestNode->move_x;
 	y = bestNode->move_y;
-	cerr<<"move x is"<<x<<" and move y is "<<y<<endl;
+	cerr<<"finalmove x is"<<x<<" and finalmove y is "<<y<<endl;
 	/*
 		不要更改这段代码
 	*/
 	clearArray(M, N, board);
-	delete bestNode;
 	delete uct;
 	return new Point(x, y);
 }
